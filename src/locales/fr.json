@@ -233,14 +233,14 @@
         "RefreshRuleTests": "Actualiser les tests de règles"
     },
     "page": {
-        "title": "IPCheck.ing - Vérifier mon adresse IP et géolocalisation - Vérifier l'adresse IP de connexion WebRTC - Test de fuite DNS - Test de vitesse - Jason Ng Open Source",
+        "title": "vmip.xyz - Vérifier mon adresse IP et géolocalisation - Vérifier l'adresse IP de connexion WebRTC - Test de fuite DNS - Test de vitesse - Jason Ng Open Source",
         "description": "Une boîte à outils IP améliorée. Facile pour vérifier vos adresses IP, les informations IP, vérifier les fuites DNS, examiner les connexions WebRTC et tester la disponibilité des sites web.",
         "keywords": "MonIP, Outil IP, Mon IP, Vérification IP, Recherche IP, Test de fuite DNS, Test WebRTC, Test de vitesse",
         "footerName": "Créateurs : Jason Ng, Seven Yu & ChatGPT",
-        "footerLink": "https://github.com/jason5ng32/MyIP",
-        "copyRightName": "Originalement de ",
-        "copyRightLink": "https://ipcheck.ing",
-        "copyRightLinkName": "IPCheck.ing"
+        "footerLink": "https://github.com/qr4d/MyIP",
+        "copyRightName": " ",
+        "copyRightLink": "https://vmip.xyz",
+        "copyRightLinkName": "vmip.xyz"
     },
     "addBingMapKey": {
         "Title": "Ajouter une clé API Bing Map",
@@ -255,7 +255,7 @@
     },
     "about": {
         "Title": "À propos",
-        "product1": "IPCheck.ing est une boîte à outils IP gratuite qui vous aide à vérifier vos informations IP, tester la disponibilité des sites web, examiner les informations de sortie DNS, effectuer des tests de vitesse, des tests de latence mondiale, des tests MTR, et plus encore.",
+        "product1": "vmip.xyz est une boîte à outils IP gratuite qui vous aide à vérifier vos informations IP, tester la disponibilité des sites web, examiner les informations de sortie DNS, effectuer des tests de vitesse, des tests de latence mondiale, des tests MTR, et plus encore.",
         "product2": "Il s'agit d'un projet open-source, et vous pouvez consulter le code source en cliquant sur l'icône GitHub en bas de la page.",
         "product3": "Au départ, il s'agissait d'un projet personnel pour moi afin d'apprendre Vue.js et comment écrire du code en utilisant ChatGPT. Au fil du temps, il a gagné en popularité sur GitHub, j'ai donc effectué beaucoup de refactoring et ajouté de nombreuses fonctionnalités utiles. J'espère que vous l'apprécierez.",
         "meTitle": "À propos de moi",
