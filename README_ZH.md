@@ -7,8 +7,6 @@
 ![Docker Pulls](https://img.shields.io/docker/pulls/qr4d/myip)
 ![GitHub license](https://img.shields.io/github/license/qr4d/MyIP)
 
-![CodeQL](https://github.com/qr4d/MyIP/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)
-![Docker Build and Push](https://github.com/qr4d/MyIP/actions/workflows/docker-image.yml/badge.svg?branch=main)
 
 ![PWA](https://img.shields.io/badge/PWA-Supported-blue)
 ![Windows-image](https://img.shields.io/badge/-Windows-blue?logo=windows)
