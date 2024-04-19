@@ -233,14 +233,14 @@
     "RefreshRuleTests": "Refresh Rule Tests"
   },
   "page": {
-    "title": "IPCheck.ing - Check My IP Address and Geolocation - Check WebRTC Connection IP - DNS Leak Test - Speed Test - Jason Ng Open Source",
+    "title": "VMIP.xyz - Check My IP Address and Geolocation - Check WebRTC Connection IP - DNS Leak Test - Speed Test - Jason Ng Open Source",
     "description": "A better IP Toolbox. Easy to check what's your IPs, IP information, check for DNS leaks, examine WebRTC connections, and test website availability",
     "keywords": "MyIP,IP Tool,My IP,IP check,IP lookup,DNS leak test,WebRTC test,Speed test",
     "footerName": "Creators: Jason Ng, Seven Yu & ChatGPT",
-    "footerLink": "https://github.com/jason5ng32/MyIP",
-    "copyRightName": "Originally from ",
-    "copyRightLink": "https://ipcheck.ing",
-    "copyRightLinkName": "IPCheck.ing"
+    "footerLink": "https://github.com/qr4d/MyIP",
+    "copyRightName": " from ",
+    "copyRightLink": "https://vmip.xyz",
+    "copyRightLinkName": "VMIP.xyz"
   },
   "addBingMapKey": {
     "Title": "Add Bing Map API Key",
