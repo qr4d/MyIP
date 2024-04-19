@@ -1,21 +1,11 @@
 # 🧰 MyIP - A Better IP Toolbox
 
-![IPCheck.ing Banner](https://raw.githubusercontent.com/qr4d/MyIP/main/public/gh_banner.png)
-
-![GitHub Repo stars](https://img.shields.io/github/stars/qr4d/MyIP)
-![GitHub forks](https://img.shields.io/github/forks/qr4d/MyIP)
-![Docker Pulls](https://img.shields.io/docker/pulls/qr4d/MyIP)
-![GitHub license](https://img.shields.io/github/license/qr4d/MyIP)
-
-![CodeQL](https://github.com/qr4d/MyIP/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)
-![Docker Build and Push](https://github.com/qr4d/MyIP/actions/workflows/docker-image.yml/badge.svg?branch=main)
-
 ![PWA](https://img.shields.io/badge/PWA-Supported-blue)
 ![Windows-image](https://img.shields.io/badge/-Windows-blue?logo=windows)
 ![MacOS-image](https://img.shields.io/badge/-MacOS-black?logo=apple)
 ![Linux-image](https://img.shields.io/badge/-Linux-333?logo=ubuntu)
 
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fipcheck.ing&up_message=online&label=IPCheck.ing 'IPCheck.ing')](https://ipcheck.ing)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fvmip.xyz&up_message=online&label=VMIP.xyz)](https://VMIP.xyz)
 
 🇺🇸 [English](README.md) | 🇨🇳 [简体中文](README_ZH.md) | 🇫🇷 [Français](README_FR.md)
 
