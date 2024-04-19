@@ -1,30 +1,25 @@
 # 🧰 MyIP - Une meilleure boîte à outils IP
 
-![IPCheck.ing Banner](https://raw.githubusercontent.com/jason5ng32/MyIP/main/public/gh_banner.png)
+![VMIP.xyz Banner](https://raw.githubusercontent.com/qr4d/MyIP/main/public/gh_banner.png)
 
-![GitHub Repo stars](https://img.shields.io/github/stars/jason5ng32/MyIP)
-![GitHub forks](https://img.shields.io/github/forks/jason5ng32/myip)
-![Docker Pulls](https://img.shields.io/docker/pulls/jason5ng32/myip)
-![GitHub license](https://img.shields.io/github/license/jason5ng32/MyIP)
-
-![CodeQL](https://github.com/jason5ng32/MyIP/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)
-![Docker Build and Push](https://github.com/jason5ng32/MyIP/actions/workflows/docker-image.yml/badge.svg?branch=main)
+![CodeQL](https://github.com/qr4d/MyIP/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)
+![Docker Build and Push](https://github.com/qr4d/MyIP/actions/workflows/docker-image.yml/badge.svg?branch=main)
 
 ![PWA](https://img.shields.io/badge/PWA-Supported-blue)
 ![Windows-image](https://img.shields.io/badge/-Windows-blue?logo=windows)
 ![MacOS-image](https://img.shields.io/badge/-MacOS-black?logo=apple)
 ![Linux-image](https://img.shields.io/badge/-Linux-333?logo=ubuntu)
 
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fipcheck.ing&up_message=online&label=IPCheck.ing 'IPCheck.ing')](https://ipcheck.ing)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2FVMIP.xyz&up_message=online&label=VMIP.xyz 'VMIP.xyz')](https://VMIP.xyz)
 
 🇺🇸 [English](README.md) | 🇨🇳 [简体中文](README_ZH.md) | 🇫🇷 [Français](README_FR.md)
 
-👉 Démo: [https://ipcheck.ing](https://ipcheck.ing)
+👉 Démo: [https://VMIP.xyz](https://VMIP.xyz)
 
 Notes: Vous pouvez utiliser ma démo gratuitement et vous pouvez également la déployer vous-même.
 
-[![Deploy with Vercel](https://raw.githubusercontent.com/jason5ng32/MyIP/main/public/Vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjason5ng32%2FMyIP&project-name=MyIP&repository-name=MyIP)
-[![Deploy with Docker](https://raw.githubusercontent.com/jason5ng32/MyIP/main/public/Docker.svg)](https://hub.docker.com/r/jason5ng32/myip)
+[![Deploy with Vercel](https://raw.githubusercontent.com/qr4d/MyIP/main/public/Vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fqr4d%2FMyIP&project-name=MyIP&repository-name=MyIP)
+[![Deploy with Docker](https://raw.githubusercontent.com/qr4d/MyIP/main/public/Docker.svg)](https://hub.docker.com/r/qr4d/myip)
 
 ## 👀 Principales fonctionnalités
 
@@ -57,7 +52,7 @@ Assurez-vous d'avoir Node.js installé.
 Clonez le code :
 
 ```bash
-git clone https://github.com/jason5ng32/MyIP.git
+git clone https://github.com/qr4d/MyIP.git
 ```
 
 Installer:
@@ -89,7 +84,7 @@ Cliquez sur le bouton 'Déployer sur Vercel' en haut pour terminer le déploieme
 Cliquez sur le bouton 'Déployer sur Docker' en haut pour terminer le déploiement. Ou utilisez le shell suivant :
 
 ```bash
-docker run -d -p 18966:18966 --name myip --restart always jason5ng32/myip:latest
+docker run -d -p 18966:18966 --name myip --restart always qr4d/myip:latest
 ```
 
 ## 📚 Variables d'environnement
@@ -101,7 +96,7 @@ Vous pouvez utiliser le programme sans ajouter de variables d'environnement, mai
 | `PORT` | Non | `18966` | Le port sur lequel le programme s'exécute |
 | `BING_MAP_API_KEY` | Non | `""` | Clé API pour Bing Maps, utilisée pour afficher l'emplacement de l'adresse IP sur une carte |
 | `ALLOWED_DOMAINS` | Non | `""` | Domaines autorisés pour l'accès, séparés par des virgules, utilisés pour empêcher une utilisation abusive de l'API backend |
-| `IPCHECKING_API_KEY` | Non | `""` | Clé API pour IPCheck.ing, utilisée pour obtenir des informations de géolocalisation précises sur l'adresse IP |
+| `IPCHECKING_API_KEY` | Non | `""` | Clé API pour VMIP.xyz, utilisée pour obtenir des informations de géolocalisation précises sur l'adresse IP |
 | `IPINFO_API_TOKEN` | Non | `""` | Jeton API pour IPInfo.io, utilisé pour obtenir des informations de géolocalisation sur l'adresse IP via IPInfo.io |
 | `KEYCDN_USER_AGENT` | Non | `""` | Le nom de domaine lorsque vous utilisez KeyCDN, doit contenir le préfixe https. Utilisé pour obtenir des informations sur l'adresse IP via KeyCDN |
 | `CLOUDFLARE_API` | Non | `""` | Clé API pour Cloudflare, utilisée pour obtenir des informations sur le système AS via Cloudflare |
@@ -141,7 +136,7 @@ docker run -d -p 18966:18966 \
   -e ALLOWED_DOMAINS="example.com" \
   -e IPCHECKING_API="YOUR_TOKEN_HERE" \
   --name myip \
-  jason5ng32/myip:latest
+  qr4d/myip:latest
 
 ```
 
@@ -154,16 +149,16 @@ Si vous utilisez un proxy pour accéder à Internet, envisagez d'ajouter cette r
 IP-CIDR,1.0.0.1/32,DIRECT,no-resolve
 IP-CIDR6,2606:4700:4700::1111/128,DIRECT,no-resolve
 # Rule Testing
-DOMAIN,ptest-1.ipcheck.ing,Proxy1
-DOMAIN,ptest-2.ipcheck.ing,Proxy2
-DOMAIN,ptest-3.ipcheck.ing,Proxy3
-DOMAIN,ptest-4.ipcheck.ing,Proxy4
-DOMAIN,ptest-5.ipcheck.ing,Proxy5
-DOMAIN,ptest-6.ipcheck.ing,Proxy6
-DOMAIN,ptest-7.ipcheck.ing,Proxy7
-DOMAIN,ptest-8.ipcheck.ing,Proxy8
+DOMAIN,ptest-1.VMIP.xyz,Proxy1
+DOMAIN,ptest-2.VMIP.xyz,Proxy2
+DOMAIN,ptest-3.VMIP.xyz,Proxy3
+DOMAIN,ptest-4.VMIP.xyz,Proxy4
+DOMAIN,ptest-5.VMIP.xyz,Proxy5
+DOMAIN,ptest-6.VMIP.xyz,Proxy6
+DOMAIN,ptest-7.VMIP.xyz,Proxy7
+DOMAIN,ptest-8.VMIP.xyz,Proxy8
 ```
 
 ## 🌟 Historique des étoiles
 
-[![Star History Chart](https://api.star-history.com/svg?repos=jason5ng32/MyIP&type=Date)](https://star-history.com/#jason5ng32/MyIP&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=qr4d/MyIP&type=Date)](https://star-history.com/#qr4d/MyIP&Date)
