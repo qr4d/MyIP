@@ -27,7 +27,7 @@ export default defineConfig({
         ]
       },
       manifest: {
-        name: 'IPCheck.ing',
+        name: 'VMIP.xyz',
         short_name: 'IPCheck.ing',
         theme_color: '#f8f9fa',
         orientation: "portrait",
