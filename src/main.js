@@ -14,7 +14,7 @@ const analytics = Analytics({
     app: 'MyIP',
     plugins: [
         googleAnalytics({
-            measurementIds: ['G-TEYKKD81TL'],
+            measurementIds: ['GTM-KLGJWMKB'],
         })
     ]
 });
