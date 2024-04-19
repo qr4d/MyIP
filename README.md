@@ -1,14 +1,14 @@
 # 🧰 MyIP - A Better IP Toolbox
 
-![IPCheck.ing Banner](https://raw.githubusercontent.com/jason5ng32/MyIP/main/public/gh_banner.png)
+![IPCheck.ing Banner](https://raw.githubusercontent.com/qr4d/MyIP/main/public/gh_banner.png)
 
-![GitHub Repo stars](https://img.shields.io/github/stars/jason5ng32/MyIP)
-![GitHub forks](https://img.shields.io/github/forks/jason5ng32/myip)
-![Docker Pulls](https://img.shields.io/docker/pulls/jason5ng32/myip)
-![GitHub license](https://img.shields.io/github/license/jason5ng32/MyIP)
+![GitHub Repo stars](https://img.shields.io/github/stars/qr4d/MyIP)
+![GitHub forks](https://img.shields.io/github/forks/qr4d/MyIP)
+![Docker Pulls](https://img.shields.io/docker/pulls/qr4d/MyIP)
+![GitHub license](https://img.shields.io/github/license/qr4d/MyIP)
 
-![CodeQL](https://github.com/jason5ng32/MyIP/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)
-![Docker Build and Push](https://github.com/jason5ng32/MyIP/actions/workflows/docker-image.yml/badge.svg?branch=main)
+![CodeQL](https://github.com/qr4d/MyIP/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)
+![Docker Build and Push](https://github.com/qr4d/MyIP/actions/workflows/docker-image.yml/badge.svg?branch=main)
 
 ![PWA](https://img.shields.io/badge/PWA-Supported-blue)
 ![Windows-image](https://img.shields.io/badge/-Windows-blue?logo=windows)
@@ -19,12 +19,11 @@
 
 🇺🇸 [English](README.md) | 🇨🇳 [简体中文](README_ZH.md) | 🇫🇷 [Français](README_FR.md)
 
-👉 Demo: [https://ipcheck.ing](https://ipcheck.ing)
+👉 Demo: [https://vmip.xyz](https://vmip.xyz)
 
 Notes: You can use my demo for free, and you can also deploy it yourself.
 
-[![Deploy with Vercel](https://raw.githubusercontent.com/jason5ng32/MyIP/main/public/Vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjason5ng32%2FMyIP&project-name=MyIP&repository-name=MyIP)
-[![Deploy with Docker](https://raw.githubusercontent.com/jason5ng32/MyIP/main/public/Docker.svg)](https://hub.docker.com/r/jason5ng32/myip)
+[![Deploy with Vercel](https://raw.githubusercontent.com/qr4d/MyIP/main/public/Vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fqr4d%2FMyIP&project-name=MyIP&repository-name=MyIP)
 
 ## 👀 Main Features
 
@@ -57,7 +56,7 @@ Make sure you have Node.js installed.
 Clone the code:
 
 ```bash
-git clone https://github.com/jason5ng32/MyIP.git
+git clone https://github.com/qr4d/MyIP.git
 ```
 
 Install:
@@ -89,7 +88,7 @@ Click the 'Deploy to Vercel' button at the top to complete the deployment.
 Click the 'Deploy to Docker' button at the top to complete the deployment. Or, use the following shell:
 
 ```bash
-docker run -d -p 18966:18966 --name myip --restart always jason5ng32/myip:latest
+docker run -d -p 18966:18966 --name myip --restart always qr4d/MyIP:latest
 ```
 
 ## 📚 Environment Variable
@@ -141,7 +140,7 @@ docker run -d -p 18966:18966 \
   -e ALLOWED_DOMAINS="example.com" \
   -e IPCHECKING_API="YOUR_TOKEN_HERE" \
   --name myip \
-  jason5ng32/myip:latest
+  qr4d/MyIP:latest
 
 ```
 
@@ -167,4 +166,4 @@ DOMAIN,ptest-8.ipcheck.ing,Proxy8
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=jason5ng32/MyIP&type=Date)](https://star-history.com/#jason5ng32/MyIP&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=qr4d/MyIP&type=Date)](https://star-history.com/#qr4d/MyIP&Date)
