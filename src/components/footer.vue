@@ -40,42 +40,6 @@
             <p>
               {{ $t('about.product2') }}
             </p>
-            <p>
-              {{ $t('about.product3') }}
-            </p>
-          </div>
-          <h5>{{ $t('about.meTitle') }}</h5>
-          <div class="mb-3">
-            <p>
-              {{ $t('about.me1') }}
-            </p>
-            <p>
-              {{ $t('about.me2') }}
-            </p>
-            <p>
-              {{ $t('about.me3') }}
-            </p>
-          </div>
-          <div class="mb-3 mx-2">
-            <p>
-              <a href="https://wujiaxian.com" class="link-success link-underline-opacity-0" target="_blank"><i
-                  class="bi bi-browser-safari"></i> {{ $t('about.personal') }}</a>
-            </p>
-            <p>
-              <a href="https://kenengba.com" class="link-success link-underline-opacity-0" target="_blank"><i
-                  class="bi bi-browser-safari"></i> {{ $t('about.blog') }}</a>
-            </p>
-            <p>
-              <a href="https://retire.money" class="link-success link-underline-opacity-0" target="_blank"><i
-                  class="bi bi-browser-safari"></i> {{ $t('about.retiremoney') }}</a>
-            </p>
-            <p>
-              <a href="https://twitter.com/jason5ng32" class="link-success link-underline-opacity-0" target="_blank"><i
-                  class="bi bi-browser-safari"></i> {{ $t('about.twitter') }}</a>
-            </p>
-          </div>
-          <h5>{{ $t('about.contactTitle') }}</h5>
-          <div v-html="$t('about.contact')" class="mb-3">
           </div>
         </div>
         <div v-if="showChanglog">
