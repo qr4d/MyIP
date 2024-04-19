@@ -2,12 +2,6 @@
 
 ![VMIP.xyz Banner](https://raw.githubusercontent.com/qr4d/MyIP/main/public/gh_banner.png)
 
-![GitHub Repo stars](https://img.shields.io/github/stars/qr4d/MyIP)
-![GitHub forks](https://img.shields.io/github/forks/qr4d/myip)
-![Docker Pulls](https://img.shields.io/docker/pulls/qr4d/myip)
-![GitHub license](https://img.shields.io/github/license/qr4d/MyIP)
-
-
 ![PWA](https://img.shields.io/badge/PWA-Supported-blue)
 ![Windows-image](https://img.shields.io/badge/-Windows-blue?logo=windows)
 ![MacOS-image](https://img.shields.io/badge/-MacOS-black?logo=apple)
