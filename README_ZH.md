@@ -1,30 +1,30 @@
 # 🧰 IP 工具箱
 
-![IPCheck.ing Banner](https://raw.githubusercontent.com/jason5ng32/MyIP/main/public/gh_banner.png)
+![VMIP.xyz Banner](https://raw.githubusercontent.com/qr4d/MyIP/main/public/gh_banner.png)
 
-![GitHub Repo stars](https://img.shields.io/github/stars/jason5ng32/MyIP)
-![GitHub forks](https://img.shields.io/github/forks/jason5ng32/myip)
-![Docker Pulls](https://img.shields.io/docker/pulls/jason5ng32/myip)
-![GitHub license](https://img.shields.io/github/license/jason5ng32/MyIP)
+![GitHub Repo stars](https://img.shields.io/github/stars/qr4d/MyIP)
+![GitHub forks](https://img.shields.io/github/forks/qr4d/myip)
+![Docker Pulls](https://img.shields.io/docker/pulls/qr4d/myip)
+![GitHub license](https://img.shields.io/github/license/qr4d/MyIP)
 
-![CodeQL](https://github.com/jason5ng32/MyIP/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)
-![Docker Build and Push](https://github.com/jason5ng32/MyIP/actions/workflows/docker-image.yml/badge.svg?branch=main)
+![CodeQL](https://github.com/qr4d/MyIP/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)
+![Docker Build and Push](https://github.com/qr4d/MyIP/actions/workflows/docker-image.yml/badge.svg?branch=main)
 
 ![PWA](https://img.shields.io/badge/PWA-Supported-blue)
 ![Windows-image](https://img.shields.io/badge/-Windows-blue?logo=windows)
 ![MacOS-image](https://img.shields.io/badge/-MacOS-black?logo=apple)
 ![Linux-image](https://img.shields.io/badge/-Linux-333?logo=ubuntu)
 
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fipcheck.ing&up_message=online&label=IPCheck.ing 'IPCheck.ing')](https://ipcheck.ing)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2FVMIP.xyz&up_message=online&label=VMIP.xyz 'VMIP.xyz')](https://VMIP.xyz)
 
 🇺🇸 [English](README.md) | 🇨🇳 [简体中文](README_ZH.md) | 🇫🇷 [Français](README_FR.md)
 
-👉 在这里体验：[https://ipcheck.ing](https://ipcheck.ing)
+👉 在这里体验：[https://VMIP.xyz](https://VMIP.xyz)
 
 备注：你可以直接用我已经搭建好的服务，也可以自行搭建。
 
-[![Deploy with Vercel](https://raw.githubusercontent.com/jason5ng32/MyIP/main/public/Vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjason5ng32%2FMyIP&project-name=MyIP&repository-name=MyIP)
-[![Deploy with Docker](https://raw.githubusercontent.com/jason5ng32/MyIP/main/public/Docker.svg)](https://hub.docker.com/r/jason5ng32/myip)
+[![Deploy with Vercel](https://raw.githubusercontent.com/qr4d/MyIP/main/public/Vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fqr4d%2FMyIP&project-name=MyIP&repository-name=MyIP)
+[![Deploy with Docker](https://raw.githubusercontent.com/qr4d/MyIP/main/public/Docker.svg)](https://hub.docker.com/r/qr4d/myip)
 
 这是我第一次用 Vue.js 练手的项目。我……只是一个普通的产品经理。
 
@@ -59,7 +59,7 @@
 克隆代码:
 
 ```bash
-git clone https://github.com/jason5ng32/MyIP.git
+git clone https://github.com/qr4d/MyIP.git
 ```
 
 安装:
@@ -91,7 +91,7 @@ npm start
 点击顶部的部署到 Docker 按钮，即可完成部署，又或者，直接输入下面的命令：
 
 ```bash
-docker run -d -p 18966:18966 --name myip --restart always jason5ng32/myip:latest
+docker run -d -p 18966:18966 --name myip --restart always qr4d/myip:latest
 ```
 
 ## 📚 环境变量
@@ -103,7 +103,7 @@ docker run -d -p 18966:18966 --name myip --restart always jason5ng32/myip:latest
 | `PORT` | 否 | `18966` | 程序运行的端口 |
 | `BING_MAP_API_KEY` | 否 | `""` | Bing 地图的 API Key，用于展示 IP 所在地的地图 |
 | `ALLOWED_DOMAINS` | 否 | `""` | 允许访问的域名，用逗号分隔，用于防止后端 API 被滥用 |
-| `IPCHECKING_API_KEY` | 否 | `""` | IPCheck.ing 的 API Key，用于获取精准的 IP 归属地信息 |
+| `IPCHECKING_API_KEY` | 否 | `""` | VMIP.xyz 的 API Key，用于获取精准的 IP 归属地信息 |
 | `IPINFO_API_TOKEN` | 否 | `""` | IPInfo.io 的 API Token，用于通过 IPInfo.io 获取 IP 归属地信息 |
 | `KEYCDN_USER_AGENT` | 否 | `""` | 使用 KeyCDN 时的域名，需包含 https 前缀。用于通过 KeyCDN 获取 IP 归属地信息 |
 | `CLOUDFLARE_API` | 否 | `""` | Cloudflare 的 API Key，用于通过 Cloudflare 获取 AS 系统的信息 |
@@ -143,7 +143,7 @@ docker run -d -p 18966:18966 \
   -e ALLOWED_DOMAINS="example.com" \
   -e IPCHECKING_API="YOUR_TOKEN_HERE" \
   --name myip \
-  jason5ng32/myip:latest
+  qr4d/myip:latest
 
 ```
 
@@ -157,14 +157,14 @@ IP-CIDR,1.0.0.1/32,DIRECT,no-resolve
 IP-CIDR6,2606:4700:4700::1111/128,DIRECT,no-resolve
 DOMAIN-SUFFIX,ipify.org,Proxy
 # Rule Testing
-DOMAIN,ptest-1.ipcheck.ing,Proxy1
-DOMAIN,ptest-2.ipcheck.ing,Proxy2
-DOMAIN,ptest-3.ipcheck.ing,Proxy3
-DOMAIN,ptest-4.ipcheck.ing,Proxy4
-DOMAIN,ptest-5.ipcheck.ing,Proxy5
-DOMAIN,ptest-6.ipcheck.ing,Proxy6
-DOMAIN,ptest-7.ipcheck.ing,Proxy7
-DOMAIN,ptest-8.ipcheck.ing,Proxy8
+DOMAIN,ptest-1.VMIP.xyz,Proxy1
+DOMAIN,ptest-2.VMIP.xyz,Proxy2
+DOMAIN,ptest-3.VMIP.xyz,Proxy3
+DOMAIN,ptest-4.VMIP.xyz,Proxy4
+DOMAIN,ptest-5.VMIP.xyz,Proxy5
+DOMAIN,ptest-6.VMIP.xyz,Proxy6
+DOMAIN,ptest-7.VMIP.xyz,Proxy7
+DOMAIN,ptest-8.VMIP.xyz,Proxy8
 ```
 
 ## 😶‍🌫️ 额外说明
@@ -179,4 +179,4 @@ DOMAIN,ptest-8.ipcheck.ing,Proxy8
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=jason5ng32/MyIP&type=Date)](https://star-history.com/#jason5ng32/MyIP&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=qr4d/MyIP&type=Date)](https://star-history.com/#qr4d/MyIP&Date)
